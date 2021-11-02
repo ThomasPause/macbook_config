@@ -1,0 +1,17 @@
+[user]
+	email = t.pause@salt-and-pepper.eu
+	name = Thomas Pause
+[color]
+	ui = true
+[alias]
+	co = checkout
+	b = branch
+	cm = commit -m
+	st = status
+	cam = commit --amend
+	puf = push --force
+	pu = push
+	p = pull
+	fe = fetch
+[pull]
+	rebase = false

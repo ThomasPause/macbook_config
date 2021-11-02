@@ -11,7 +11,7 @@ in den PATH integrieren
 `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 * wichtige Tools installieren
-`brew install git ranger`
+`brew install git ranger htop kubectl helm `
 
 * oh-my-zsh installieren
 Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl`, `wget` or another similar tool.
