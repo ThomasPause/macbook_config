@@ -37,7 +37,26 @@ sh install.sh
 1. `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
 2. Set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 
+* AutoSuggestions aktivieren
+1. `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+2. Plugin zur Liste der Plugins hinzufügen (in `~/.zshrc`)
+```plugins=( 
+    # other plugins...
+    zsh-autosuggestions
+)
+```
+
+* Syntaxhighlighting aktivieren
+1. `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+2. Plugin zur Liste der Plugins hinzufügen (in `~/.zshrc`)
+```plugins=( 
+    # other plugins...
+    zsh-syntax-highlighting
+)
+```
+
 ### Quellen:
-* [](https://github.com/ohmyzsh/ohmyzsh)
-* [](https://github.com/romkatv/powerlevel10k)
+* [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+* [https://github.com/romkatv/powerlevel10k](https://github.com/romkatv/powerlevel10k)
+* [https://github.com/zsh-users](https://github.com/zsh-users)
 * []()
