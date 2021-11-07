@@ -11,7 +11,9 @@ in den PATH integrieren
 `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 * wichtige Tools installieren
-`brew install git ranger htop kubectl helm `
+`brew install git ranger htop kubectl helm iproute2mac minikube`
+`brew install cask`
+`brew install clock-bar`
 
 * oh-my-zsh installieren
 Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl`, `wget` or another similar tool.
@@ -27,7 +29,6 @@ Oh My Zsh is installed by running one of the following commands in your terminal
 It's a good idea to inspect the install script from projects you don't yet know. You can do
 that by downloading the install script first, looking through it so everything looks normal,
 then running it:
-
 ```sh
 wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
@@ -40,7 +41,8 @@ sh install.sh
 * AutoSuggestions aktivieren
 1. `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 2. Plugin zur Liste der Plugins hinzufügen (in `~/.zshrc`)
-```plugins=( 
+```
+plugins=( 
     # other plugins...
     zsh-autosuggestions
 )
@@ -49,7 +51,8 @@ sh install.sh
 * Syntaxhighlighting aktivieren
 1. `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 2. Plugin zur Liste der Plugins hinzufügen (in `~/.zshrc`)
-```plugins=( 
+```
+plugins=( 
     # other plugins...
     zsh-syntax-highlighting
 )
