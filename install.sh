@@ -36,8 +36,8 @@ read -r git
 
 case $git in 
     "j")
-        cp .gitconfig ~/
-        printf "Gitconfig kopiert"
+        cp .gitconfig ~
+        printf "Gitconfig kopiert";;
     "n")
         printf "OK, dann gehts weiter\n" || exit;;
     *)
@@ -47,7 +47,7 @@ esac
 
 printf "Installiere Homebrew...\n"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-printf "Integriere Homebrrew in den PATH...\n"
+printf "Integriere Homebrew in den PATH...\n"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
