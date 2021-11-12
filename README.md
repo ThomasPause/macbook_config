@@ -11,9 +11,11 @@ in den PATH integrieren
 `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 * wichtige Tools installieren
-`brew install git ranger htop kubectl helm iproute2mac minikube`
+`brew install git ranger htop kubectl helm iproute2mac minikube python3`
 `brew install cask`
 `brew install clock-bar`
+'brew install --cask powershell'
+'pip3 install ansible'
 
 * oh-my-zsh installieren
 Oh My Zsh is installed by running one of the following commands in your terminal. You can install this via the command-line with either `curl`, `wget` or another similar tool.
@@ -57,6 +59,10 @@ plugins=(
     zsh-syntax-highlighting
 )
 ```
+### Tools zum manuellen Installieren
+
+* [Spectacle Tiling manager](https://www.spectacleapp.com/)
+
 
 ### Quellen:
 * [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
