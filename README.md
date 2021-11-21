@@ -11,7 +11,7 @@ in den PATH integrieren
 `eval "$(/opt/homebrew/bin/brew shellenv)"`
 
 * wichtige Tools installieren
-`brew install git ranger htop kubectl helm iproute2mac minikube python3`
+`brew install git ranger htop kubectl helm iproute2mac minikube python3 gabrie30/utils/ghorg vagrant virtualenv`
 `brew install cask`
 `brew install clock-bar`
 'brew install --cask powershell'
