@@ -52,7 +52,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 printf "Installiere einige wichtige Tools via Homebrew...\n"
-brew install git ranger htop kubectl helm iproute2mac minikube python3 gabrie30/utils/ghorg vagrant virtualenv awscli bpytop
+brew install git ranger htop kubectl helm iproute2mac minikube python3 gabrie30/utils/ghorg vagrant virtualenv awscli bpytop k3d
 pip3 install ansible
 brew install cask
 brew install clock-bar
