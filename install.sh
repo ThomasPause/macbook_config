@@ -21,7 +21,8 @@ read -r ssh
 case $ssh in 
     "j")
         printf "SSH Key wird erstellt..."
-        ssh-keygen -t rsa -b 4096
+        # ssh-keygen -t rsa -b 4096
+        ssh-keygen -t ed25519 -C "<comment>"
         printf "dein SSH Key:\n"
         cat ~/.ssh/id_rsa.pub || exit;;
     "n")
