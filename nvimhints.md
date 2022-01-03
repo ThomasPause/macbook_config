@@ -3,7 +3,7 @@ vcsh clone git://spambri.de/tmux.git
 vcsh clone git://spambri.de/vim.git
 vcsh clone git://spambri.de/zsh.git
 
-vorher brew install vcsh nvim
+vorher brew install vcsh nvim moreutils
 
 mittels in zsh definiertem mcd Befehl noch folgende Repos installieren:
 
