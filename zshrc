@@ -128,4 +128,6 @@ fi
 
 # Alias for nvim
 alias vi="nvim"
-alias l="ls -al"
+alias l="ls -latrh"
+alias ..="cd .."
+alias ...="cd ../.."
