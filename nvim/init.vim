@@ -18,7 +18,15 @@ endif
 if v:version >= 700
 	set numberwidth=3
 endif
-set number relativenumber
+
+" Automatic toggling between line number modes
+:set number
+
+:augroup numbertoggle
+:  autocmd!
+:  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+:  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+:augroup END
 
 " milliseconds to wait for macro keystrokes
 set timeoutlen=500

@@ -131,3 +131,5 @@ alias vi="nvim"
 alias l="ls -latrh"
 alias ..="cd .."
 alias ...="cd ../.."
+alias c="clear"
+
