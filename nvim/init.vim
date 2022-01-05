@@ -261,6 +261,12 @@ noremap <silent> <leader>mj <C-W>J
 " for new tabs use ,e instead of :e
 noremap <silent> <leader>e :tabe
 
+" for new pane in horizontal split use ,s
+noremap <silent> <leader>s :split
+
+" for new pane in vertical split use ,v
+noremap <silent> <leader>v :vsplit
+
 " highlight last change (visual mode)
 command! HLchange norm `[v`]
 
