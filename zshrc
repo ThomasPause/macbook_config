@@ -132,4 +132,5 @@ alias l="ls -latrh"
 alias ..="cd .."
 alias ...="cd ../.."
 alias c="clear"
+alias -g V="| nvim -c 'set bt=nofile' -"
 
