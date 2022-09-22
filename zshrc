@@ -133,3 +133,5 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias c="clear"
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
