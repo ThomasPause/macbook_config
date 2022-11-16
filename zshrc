@@ -133,9 +133,9 @@ alias ll="ls -al"
 alias ..="cd .."
 alias ...="cd ../.."
 alias c="clear"
+alias -g V="| nvim -c 'set bt=nofile' -"
 alias k="kubectl"
 
 source <(kubectl completion zsh)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
