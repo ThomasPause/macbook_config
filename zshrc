@@ -129,9 +129,13 @@ fi
 # Alias for nvim
 alias vi="nvim"
 alias l="ls -latrh"
+alias ll="ls -al"
 alias ..="cd .."
 alias ...="cd ../.."
 alias c="clear"
+alias k="kubectl"
+
+source <(kubectl completion zsh)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
